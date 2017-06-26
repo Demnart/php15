@@ -6,7 +6,7 @@ abstract class AbstractModel
 
     protected static $table;
 
-    public function findAll()
+    public static function findAll()
     {
         $sql = 'SELECT * FROM ' . static::$table;
         $db = new DB();
