@@ -20,6 +20,12 @@ class DB
     {
         $sth = $this->dbh->prepare($sql);
         $sth->execute($params);
-        return $sth->fetchAll(PDO::FETCH_CLASS,$this->class);
+        return $sth->fetchAll(PDO::FETCH_CLASS);
+    }
+
+    public function execute($sql,$params=[])
+    {
+        $sth = $this->dbh->prepare($sql);
+        return $sth->execute($params);
     }
 }

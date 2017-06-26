@@ -2,5 +2,5 @@
 
 foreach ($items as $value)
 {
-    echo $value->title . '<br>' .$value->text . '<br>' .$value->author . '<br>';
+    echo $value->title . '<br>' .$value->text . '<br>' . $value->author . '<br>';
 }
