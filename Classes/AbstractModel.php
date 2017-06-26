@@ -42,4 +42,11 @@ abstract class AbstractModel
         $db->execute($sql,$data);
     }
 
+    public function findByColumn($column,$value)
+    {
+        $sql = 'SELECT * FROM ' . static::$table . ' WHERE ' . $column . ' = :value ';
+        $db = new DB();
+        return $db->getAll($sql,[':value'=>$value]);
+    }
+
 }
