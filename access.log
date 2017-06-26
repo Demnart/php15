@@ -1,0 +1,4 @@
+127.0.0.1 - - [26/Jun/2017:10:58:09 +0300] "GET / HTTP/1.1" 200 676 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36"
+127.0.0.1 - - [26/Jun/2017:10:58:09 +0300] "GET /icons/blank.gif HTTP/1.1" 200 431 "http://php15.site/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36"
+127.0.0.1 - - [26/Jun/2017:10:58:09 +0300] "GET /icons/unknown.gif HTTP/1.1" 200 529 "http://php15.site/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36"
+127.0.0.1 - - [26/Jun/2017:10:58:09 +0300] "GET /favicon.ico HTTP/1.1" 404 501 "http://php15.site/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36"
