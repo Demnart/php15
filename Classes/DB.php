@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: genjo
- * Date: 26.06.17
- * Time: 11:17
- */
 class DB
 {
     private $dbh;
