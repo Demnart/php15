@@ -49,4 +49,12 @@ abstract class AbstractModel
         return $db->getAll($sql,[':value'=>$value]);
     }
 
+    public function deleteById()
+    {
+        $sql = 'DELETE FROM ' . static::$table . ' WHERE id = :id';
+        $db = new DB();
+        return $db->getAll($sql,[':id' => $this->data['id']]);
+    }
+
+
 }
